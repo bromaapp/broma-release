@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.57 — 2026-11-15
+
+**English**
+
+- **Agent**: when it builds a flow, the Agent now tries every step on a real browser before adding it: the profile picked in the editor, or the editor's **Temporary profile**, which it now uses without asking and which opens with the extensions the flow needs. A click, a field or a script that reads the page is only added once it has worked there, so a flow is no longer written from guesses about what a site looks like. Outside the editor, the Agent builds on a clean temporary browser.
+- **Agent**: the **Model** and **Effort** pickers no longer have a separate "Default" row, as in the Codex extension. Until you pick one, the model your account uses by default and that model's default level are ticked in the list. This applies to Claude Code and Codex agents.
+
+**Tiếng Việt**
+
+- **Agent**: khi dựng flow, Agent giờ chạy thử từng bước trên trình duyệt thật trước khi thêm vào: profile đang chọn ở editor, hoặc **Profile tạm** của editor, mà Agent giờ dùng luôn không cần hỏi và được mở kèm các tiện ích flow cần. Một cú click, một ô nhập hay một đoạn script đọc trang chỉ được thêm khi đã chạy được ở đó, nên flow không còn được viết theo phỏng đoán về trang web. Ngoài editor, Agent dựng flow trên một trình duyệt tạm sạch.
+- **Agent**: ô chọn **Model** và **Effort** không còn dòng "Mặc định" riêng, giống Codex extension. Khi bạn chưa chọn, model tài khoản dùng mặc định và mức mặc định của model đó được tích sẵn trong danh sách. Áp dụng cho agent Claude Code và Codex.
+
 ### v1.0.0-beta.56 — 2026-11-15
 
 **English**
