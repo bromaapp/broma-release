@@ -10,6 +10,24 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.56 — 2026-11-15
+
+**English**
+
+- **Agent**: for a Claude Code or Codex agent, the **Model** chip now lists exactly the models your account offers, with their versions, and shows the model the agent really answers with (for example "Opus 5 · 1M") instead of "CLI default". A model that needs a newer CLI is greyed out with the reason.
+- **Agent**: **Effort** follows the model. It offers only the levels that model supports (Codex has more, up to Ultra), shows the model's own default level, and is hidden for a model without levels. Switching to a model that doesn't take the level you picked drops it.
+- **Agent**: a Claude Code agent now has Claude Code's own modes: **Manual**, **Accept edits**, **Plan** and **Auto**, with Shift+Tab to cycle them. **Manual** asks before every change, creating or editing a profile, proxy or flow too, and new chats start in it. **Auto** is left out on models that don't support it.
+- **Agent**: a Codex agent works like the Codex extension. Its permissions menu offers **Ask for approval**, **Approve for me** and **Full access**, and **Plan mode** is a switch of its own (Shift+Tab or `/plan`); turning it off goes back to the permission you had. **Full access** asks nothing, not even to delete, open a wallet or after reading a web page, and is turned on only after you confirm a warning.
+- **Agent** and **AI for flows**: a new **CLI** row in both lists shows the Claude Code and Codex versions on this machine and when a newer one is out. **Update** updates it once for every agent and flow AI that uses it. When a model needs a newer CLI, the model picker offers the update right there.
+
+**Tiếng Việt**
+
+- **Agent**: với agent Claude Code hay Codex, chip **Model** giờ liệt kê đúng các model tài khoản của bạn có, kèm phiên bản, và hiện model agent thật sự đang dùng (ví dụ "Opus 5 · 1M") thay cho "Mặc định của CLI". Model cần CLI mới hơn hiện mờ kèm lý do.
+- **Agent**: **Effort** theo model. Chỉ hiện các mức model đó hỗ trợ (Codex có nhiều mức hơn, tới Ultra), hiện đúng mức mặc định của model, và ẩn đi với model không có mức nào. Đổi sang model không nhận mức bạn đã chọn thì mức đó được bỏ.
+- **Agent**: agent Claude Code giờ có đúng các chế độ của Claude Code: **Manual**, **Accept edits**, **Plan** và **Auto**, bấm Shift+Tab để chuyển. **Manual** hỏi trước mọi thay đổi, kể cả tạo hay sửa profile, proxy, flow, và chat mới bắt đầu ở chế độ này. **Auto** không có trên model không hỗ trợ.
+- **Agent**: agent Codex dùng giống Codex extension. Menu quyền có **Yêu cầu phê duyệt**, **Phê duyệt giúp tôi** và **Toàn quyền truy cập**, còn **Chế độ lập kế hoạch** là nút bật/tắt riêng (Shift+Tab hoặc `/plan`); tắt thì quay về quyền bạn đang dùng. **Toàn quyền truy cập** không hỏi gì cả, kể cả khi xóa, mở ví hay sau khi đọc trang web, và chỉ bật sau khi bạn xác nhận cảnh báo.
+- **Agent** và **AI cho flow**: mục **CLI** mới ở cả hai danh sách hiện phiên bản Claude Code và Codex trên máy này và báo khi có bản mới. Nút **Cập nhật** cập nhật một lần cho mọi agent và AI cho flow dùng CLI đó. Khi có model cần CLI mới hơn, ô chọn model có nút cập nhật ngay tại đó.
+
 ### v1.0.0-beta.55 — 2026-11-14
 
 **English**
