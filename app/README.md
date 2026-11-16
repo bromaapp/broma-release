@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.59 — 2026-11-16
+
+**English**
+
+- **Agent**: Claude Code and Codex now run with their own complete agent loop while Broma's tools are added as extensions. They can use their built-in tools, continue for as many steps as the task needs, and stream progress without Broma restarting the CLI after every action.
+- **Agent**: follow-up messages resume the same native session instead of resending the entire conversation, reducing repeated context and token use. Broma actions still follow your selected permissions, approval prompts, secret redaction and Stop control, and native file work stays in an isolated workspace.
+
+**Tiếng Việt**
+
+- **Agent**: Claude Code và Codex giờ chạy bằng vòng lặp agent đầy đủ của chính chúng, còn các công cụ của Broma được gắn vào như phần mở rộng. Agent vẫn dùng được công cụ gốc, tiếp tục bao nhiêu bước tùy tác vụ và truyền tiến trình liên tục mà không bị Broma khởi động lại CLI sau mỗi thao tác.
+- **Agent**: tin nhắn tiếp theo nối tiếp cùng phiên native thay vì gửi lại toàn bộ cuộc trò chuyện, giúp giảm context lặp và token sử dụng. Thao tác trên Broma vẫn tuân theo quyền đã chọn, hộp phê duyệt, che dữ liệu bí mật và nút Dừng; phần làm việc với file của agent native được giữ trong workspace cách ly.
+
 ### v1.0.0-beta.58 — 2026-11-16
 
 **English**
