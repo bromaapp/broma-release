@@ -10,6 +10,20 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.58 — 2026-11-16
+
+**English**
+
+- **Agent and Editor**: the Agent can now use the open flow's **Run** and **Save** actions itself. After building a flow, it runs the current canvas end to end—even before it has been saved—reports the node statuses, log and result rows, fixes failures, and saves the working version without asking you to press the buttons.
+- **Agent**: the Agent can now search Broma's complete feature catalog in your own words. It uses the result to pick the right tool, open the relevant screen, or explain where a task belongs instead of incorrectly saying that a feature is unavailable.
+- **Flows**: **Version history** shows every saved version, its node count and whether it came from you, the Agent, your team or the Store. Open an older version as a new unsaved flow, or restore it as the newest version without deleting anything that came after it.
+
+**Tiếng Việt**
+
+- **Agent và Editor**: Agent giờ tự dùng được nút **Chạy** và **Lưu** của flow đang mở. Sau khi dựng flow, Agent chạy toàn bộ canvas hiện tại từ đầu đến cuối—kể cả khi chưa lưu—đọc trạng thái từng node, log và các dòng kết quả, sửa bước lỗi rồi lưu bản chạy được mà không cần nhờ bạn bấm nút.
+- **Agent**: Agent giờ tìm được toàn bộ chức năng của Broma bằng lời của bạn. Kết quả giúp Agent chọn đúng công cụ, mở đúng màn hình hoặc chỉ rõ nơi thực hiện thay vì báo nhầm rằng ứng dụng không có chức năng đó.
+- **Flow**: **Lịch sử phiên bản** hiển thị mọi bản đã lưu, số node và bản đó do bạn, Agent, team hay Cửa hàng tạo ra. Bạn có thể mở bản cũ thành một flow mới chưa lưu, hoặc khôi phục nó thành bản mới nhất mà không xóa những bản có sau đó.
+
 ### v1.0.0-beta.57 — 2026-11-15
 
 **English**
