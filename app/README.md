@@ -10,6 +10,16 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.60 — 2026-11-17
+
+**English**
+
+- **Agent**: fixed a Codex agent being unable to use any of Broma's tools after beta.59. Every request to work with profiles, flows or the browser was refused before it reached Broma, so the Agent could only answer in text. Broma still asks for your approval wherever your selected permissions require it.
+
+**Tiếng Việt**
+
+- **Agent**: sửa lỗi agent Codex không dùng được công cụ nào của Broma từ bản beta.59. Mọi yêu cầu thao tác với profile, flow hay trình duyệt đều bị từ chối trước khi tới Broma, nên Agent chỉ trả lời được bằng chữ. Broma vẫn hỏi bạn duyệt ở những chỗ quyền đã chọn yêu cầu.
+
 ### v1.0.0-beta.59 — 2026-11-16
 
 **English**
