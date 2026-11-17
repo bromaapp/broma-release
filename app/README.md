@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.62 — 2026-11-17
+
+**English**
+
+- **Sidebar**: screens are in a more natural order. Proxy now comes right after Profile, Flow comes before Editor so you pick a flow before you edit it, and Referral moved to General next to Plan, since it rewards you with plan days and commission on plans.
+- **Editor**: the node palette has two new groups. **Data & API** holds Write result row and HTTP request, the nodes that save or send what a flow found. **Web3** holds Create wallet and comes last, after the general groups. Each group has its own color on the canvas.
+
+**Tiếng Việt**
+
+- **Thanh bên**: các màn được xếp theo thứ tự tự nhiên hơn. Proxy nằm ngay sau Profile, Flow đứng trước Trình soạn thảo để bạn chọn flow rồi mới sửa, còn Mời bạn bè chuyển sang nhóm Chung cạnh Gói, vì phần thưởng là ngày dùng gói và hoa hồng từ gói. Hai mục được đổi tên cho rõ: "Bán flow" thành **Người bán** (màn này còn dùng để đăng tiện ích), "Giới thiệu" thành **Mời bạn bè** (để khỏi nhầm với "Về Broma").
+- **Trình soạn thảo**: bảng node có thêm hai nhóm. **Dữ liệu & API** gồm Ghi dòng kết quả và Gọi HTTP, các node lưu hoặc gửi đi thứ flow tìm được. **Web3** gồm Tạo ví, nằm cuối sau các nhóm chung. Mỗi nhóm có màu riêng trên canvas.
+
 ### v1.0.0-beta.61 — 2026-11-17
 
 **English**
