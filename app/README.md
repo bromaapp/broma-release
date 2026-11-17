@@ -10,6 +10,22 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.61 — 2026-11-17
+
+**English**
+
+- **Agent**: browser clicks no longer hang. When a page does not respond to the mouse, or a button is covered by something else, the Agent clicks it directly and says so, instead of waiting for minutes and then failing. A click on an element that does not exist now fails within seconds and points to the element the Agent most likely meant.
+- **Agent**: the Agent now reads a page with a reference for every button, link and field, and acts on exactly the element it read instead of guessing how to find it. Requests that work in the browser need fewer retries and finish sooner. After a click, the Agent also sees the page's address and any dialog that opened, so it rereads the page less often.
+- **Agent**: a browser the Agent controls keeps responding at full speed when its window is minimized or behind other windows.
+- **Agent**: Codex starts on a new request sooner, because it knows Broma's tools from the start instead of searching through them first.
+
+**Tiếng Việt**
+
+- **Agent**: thao tác bấm trên trình duyệt không còn bị treo. Khi trang không phản hồi chuột, hoặc nút bị thứ khác che, Agent bấm thẳng vào nút đó và báo cho bạn biết, thay vì chờ vài phút rồi báo lỗi. Bấm vào một phần tử không tồn tại giờ báo lỗi trong vài giây và chỉ ra phần tử Agent nhiều khả năng muốn bấm.
+- **Agent**: Agent giờ đọc trang kèm một mã cho từng nút, link và ô nhập, rồi thao tác đúng phần tử vừa đọc thay vì đoán cách tìm nó. Các yêu cầu làm trên trình duyệt ít phải thử lại hơn và xong nhanh hơn. Sau mỗi lần bấm, Agent cũng thấy luôn địa chỉ trang và hộp thoại vừa mở, nên ít phải đọc lại trang.
+- **Agent**: trình duyệt do Agent điều khiển vẫn phản hồi đủ nhanh khi cửa sổ bị thu nhỏ hoặc nằm sau cửa sổ khác.
+- **Agent**: Codex bắt tay vào yêu cầu mới sớm hơn, vì biết sẵn các công cụ của Broma ngay từ đầu thay vì phải tìm qua từng cái.
+
 ### v1.0.0-beta.60 — 2026-11-17
 
 **English**
