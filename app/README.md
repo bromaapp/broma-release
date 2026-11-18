@@ -10,6 +10,28 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.63 — 2026-11-18
+
+**English**
+
+- **Flows**: a flow now works on the whole app, not only in a browser. The new **App action** node does what the Agent can do in the app (create and edit profiles, proxies, groups, extensions, data and team settings), exactly as you set it up and with no AI cost. Its options are filled in field by field.
+- **Flows**: the new **Use profile** node opens a profile's browser, and the page steps after it act there. One flow can create profiles, set them up and then work in them.
+- **Flows**: the profiles a flow runs on are now fields of its form. A **Profile list** field set to "Run once per profile" runs the flow once for each profile you pick, as jobs did before. A job's profiles are picked in its form.
+- **Flows**: a flow now sets up its own extensions. Add them to the profile with an App action, by their Chrome Web Store id, before Use profile, and Use profile reopens the browser so they load. The required extensions list and the Environment section are gone. Flows you already have are converted automatically.
+- **Editor**: the profile picker in the toolbar is replaced by **Test values**, the flow's own form. A profile field left on Temporary profile tries the flow without touching a real account. New flows start with a Profile field and a Use profile node.
+- **Agent**: when the Agent runs a flow whose steps change the app, its approval lists those steps.
+- **Sidebar**: Settings and About Broma are now icons at the bottom, next to your account. The update dot is on About Broma.
+
+**Tiếng Việt**
+
+- **Flow**: flow giờ làm việc trên toàn app, không chỉ trong trình duyệt. Node mới **Thao tác ứng dụng** làm được những việc Agent làm trong app (tạo và sửa profile, proxy, nhóm, tiện ích, dữ liệu, cài đặt team), chạy đúng như bạn cấu hình và không tốn tiền AI. Các tùy chọn của nó được điền theo từng ô.
+- **Flow**: node mới **Dùng profile** mở trình duyệt của một profile, các bước trên trang sau đó làm ở đó. Một flow có thể tạo profile, thiết lập rồi làm việc luôn trên các profile đó.
+- **Flow**: các profile flow chạy trên giờ là ô trong form của flow. Ô **Danh sách profile** bật "Mỗi profile một lần chạy" sẽ chạy flow một lần cho mỗi profile bạn chọn, như cách job chạy trước đây. Profile của job được chọn ngay trong form.
+- **Flow**: flow giờ tự thiết lập tiện ích. Thêm tiện ích vào profile bằng Thao tác ứng dụng, theo id trên Chrome Web Store, trước Dùng profile; Dùng profile sẽ mở lại trình duyệt để nạp chúng. Danh sách tiện ích bắt buộc và mục Môi trường đã được bỏ. Các flow bạn đang có được tự chuyển đổi.
+- **Trình soạn thảo**: ô chọn profile trên thanh công cụ được thay bằng **Giá trị chạy thử**, chính là form của flow. Ô profile để Profile tạm thì chạy thử mà không đụng vào tài khoản thật. Flow mới có sẵn ô Profile và node Dùng profile.
+- **Agent**: khi Agent chạy một flow có bước làm thay đổi app, thẻ duyệt sẽ liệt kê các bước đó.
+- **Thanh bên**: Cài đặt và Về Broma giờ là biểu tượng ở cuối thanh, cạnh tài khoản của bạn. Chấm báo cập nhật nằm trên Về Broma.
+
 ### v1.0.0-beta.62 — 2026-11-17
 
 **English**
