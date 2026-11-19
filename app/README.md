@@ -10,6 +10,22 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.64 — 2026-11-19
+
+**English**
+
+- **API & MCP** (paid plans): a new screen in the sidebar lets programs outside the app control Broma. Turn it on, make a key, and connect Claude Code, Claude Desktop, Cursor, Codex or VS Code over MCP; the Connect dialog has the config ready to copy for each one. They get the same tools as the Agent: profiles, proxies, flows, runs and driving a browser.
+- **API & MCP**: each key has its own access: Read only, Ask in the app (anything that needs approval waits for you in Broma), or Full access for scripts that run unattended. The key is shown once, when you make it, and deleting it revokes it at once.
+- **API & MCP**: everything a key does is logged in its own chat in the Agent panel, where you approve its requests and stop it.
+- **SDK**: new Node.js and Python SDKs drive Broma from a script, and hand you a profile's browser for Puppeteer, Playwright or Selenium to connect to. The API listens on this computer only. Docs: https://bromaapp.com/docs/api
+
+**Tiếng Việt**
+
+- **API & MCP** (gói trả phí): màn mới ở thanh bên cho chương trình bên ngoài điều khiển Broma. Bật lên, tạo key, rồi kết nối Claude Code, Claude Desktop, Cursor, Codex hoặc VS Code qua MCP; dialog Kết nối có sẵn cấu hình để sao chép cho từng chương trình. Chúng dùng cùng bộ công cụ với Agent: profile, proxy, flow, lượt chạy và điều khiển trình duyệt.
+- **API & MCP**: mỗi key có quyền riêng: Chỉ đọc, Hỏi trong app (việc cần duyệt sẽ chờ bạn trong Broma), hoặc Toàn quyền cho script chạy tự động. Key chỉ hiện một lần khi tạo, xóa key là thu hồi ngay.
+- **API & MCP**: mọi việc một key làm được ghi vào cuộc trò chuyện riêng của key trong panel Agent, nơi bạn duyệt yêu cầu và dừng nó.
+- **SDK**: SDK Node.js và Python mới để điều khiển Broma từ script, và trao trình duyệt của profile cho Puppeteer, Playwright hoặc Selenium nối vào. API chỉ nghe trên máy này. Tài liệu: https://bromaapp.com/docs/api
+
 ### v1.0.0-beta.63 — 2026-11-18
 
 **English**
