@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.65 — 2026-11-20
+
+**English**
+
+- **Agent**: the Effort menu for Claude Code and Codex now follows the exact levels that the signed-in account offers for the selected model. Changing accounts refreshes the list, and changing to a model that does not accept the saved level returns to that model's default instead of sending an invalid value.
+- **Agent browser**: fixed typing into rich-text fields such as a YouTube channel description. The Agent can now replace text in content-editable fields, use shortcuts such as Control+A, and type line breaks, Vietnamese text and emoji without the browser tool failing.
+
+**Tiếng Việt**
+
+- **Agent**: menu Mức suy luận của Claude Code và Codex giờ chỉ hiện đúng các mức mà tài khoản đang đăng nhập hỗ trợ cho model đã chọn. Khi đổi tài khoản, danh sách được tải lại; khi đổi sang model không nhận mức đã lưu, Agent quay về mức mặc định của model thay vì gửi một giá trị không hợp lệ.
+- **Trình duyệt của Agent**: sửa lỗi nhập vào ô rich-text như phần mô tả kênh YouTube. Agent giờ thay được nội dung trong ô `contenteditable`, dùng được tổ hợp như Control+A, và nhập xuống dòng, tiếng Việt hoặc emoji mà không làm công cụ trình duyệt thất bại.
+
 ### v1.0.0-beta.64 — 2026-11-19
 
 **English**
