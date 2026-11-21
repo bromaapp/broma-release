@@ -10,6 +10,16 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.66 — 2026-11-21
+
+**English**
+
+- **Agent**: the Effort menu for Claude Code and Codex now matches the levels offered by their VS Code extensions for the selected model. Claude Code keeps Max when the model supports it, while Codex hides internal levels that its extension does not offer.
+
+**Tiếng Việt**
+
+- **Agent**: menu Mức suy luận của Claude Code và Codex giờ khớp với các mức mà extension VS Code tương ứng cung cấp cho model đã chọn. Claude Code vẫn có Tối đa khi model hỗ trợ, còn Codex ẩn các mức nội bộ mà extension không cung cấp.
+
 ### v1.0.0-beta.65 — 2026-11-20
 
 **English**
