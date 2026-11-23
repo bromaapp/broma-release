@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.67 — 2026-11-23
+
+**English**
+
+- **Browser window grid**: on first setup, Broma measures the space reserved by the Windows taskbar on the primary monitor and adjusts the grid margins. You can change those margins in Settings, and Broma keeps your changes.
+- **Sidebar**: API & MCP now lives under Integrations.
+
+**Tiếng Việt**
+
+- **Lưới cửa sổ trình duyệt**: khi thiết lập lần đầu, Broma tự tính khoảng trống cần chừa cho taskbar Windows trên màn hình chính. Bạn có thể đổi lề trong Cài đặt và Broma sẽ giữ giá trị bạn đã chỉnh.
+- **Thanh bên**: API & MCP chuyển vào nhóm Tích hợp.
+
 ### v1.0.0-beta.66 — 2026-11-21
 
 **English**
