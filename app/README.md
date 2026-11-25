@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.69 — 2026-11-25
+
+**English**
+
+- **Integrations › SDK**: the install commands point to the SDK's new home, [github.com/bromaapp/broma-sdk](https://github.com/bromaapp/broma-sdk). The old links keep working.
+- **Updates**: Broma reads release notes and downloads updates from [github.com/bromaapp/broma-release](https://github.com/bromaapp/broma-release), where this release channel now lives.
+
+**Tiếng Việt**
+
+- **Tích hợp › SDK**: lệnh cài trỏ tới địa chỉ mới của SDK, [github.com/bromaapp/broma-sdk](https://github.com/bromaapp/broma-sdk). Link cũ vẫn dùng được.
+- **Cập nhật**: Broma đọc ghi chú phát hành và tải bản cập nhật từ [github.com/bromaapp/broma-release](https://github.com/bromaapp/broma-release), nơi kênh phát hành này chuyển về.
+
 ### v1.0.0-beta.68 — 2026-11-25
 
 **English**
