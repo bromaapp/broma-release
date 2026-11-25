@@ -10,6 +10,20 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.68 — 2026-11-25
+
+**English**
+
+- **Integrations**: the group now sits at the bottom of the sidebar, with four screens. **MCP** connects Claude Code, Cursor, Codex, VS Code or Claude Desktop, and can create a key for that client. **SDK** shows how to install the Node or Python SDK and gives you a script to start from. **API keys** holds the local server switch, its port and your keys. **Docs** lists every tool with its arguments, what each kind of key can do with it, and an example call in curl, Node and Python.
+- **Data**: the Cloud tab is now your team's drive. Upload any file, such as a spreadsheet, an image or a document, and share it with the same permissions as flow results. You can download a file or upload a new version of it. Broma only downloads these files and never opens them.
+- **Flows**: a flow's form can ask for a file from your computer, and the new **Upload file** step puts that file into a file field on the web page.
+
+**Tiếng Việt**
+
+- **Tích hợp**: nhóm chuyển xuống cuối thanh bên, gồm bốn màn. **MCP** kết nối Claude Code, Cursor, Codex, VS Code hay Claude Desktop và tạo được key riêng cho client đó. **SDK** hướng dẫn cài SDK Node hoặc Python, kèm một script để bắt đầu. **API key** gồm công tắc máy chủ cục bộ, cổng và các key của bạn. **Tài liệu** liệt kê mọi tool cùng tham số, mỗi loại key làm được gì với tool đó, và ví dụ gọi bằng curl, Node, Python.
+- **Dữ liệu**: tab Cloud giờ là drive của team. Tải lên tệp bất kỳ như bảng tính, ảnh hay tài liệu và chia sẻ với quyền giống kết quả flow. Bạn có thể tải tệp xuống hoặc tải bản mới lên. Broma chỉ tải các tệp này về, không bao giờ tự mở.
+- **Flow**: form của flow có thể yêu cầu một tệp trên máy, và bước mới **Tải tệp lên** đưa tệp đó vào ô chọn tệp trên trang web.
+
 ### v1.0.0-beta.67 — 2026-11-23
 
 **English**
