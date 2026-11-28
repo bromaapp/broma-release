@@ -10,6 +10,18 @@ version itself and downloads it from here.
 What each release changes, newest first. Broma shows these notes next to an
 available update, in English or Vietnamese.
 
+### v1.0.0-beta.70 — 2026-11-28
+
+**English**
+
+- When a new version is available, select **Download update** at the top of the app, even before signing in. You can follow the download or cancel it while using other screens.
+- Once the download finishes, select **Install now** when you're ready to close Broma and open the installer. In **About**, the update button is now above the release notes.
+
+**Tiếng Việt**
+
+- Khi có phiên bản mới, bạn có thể bấm **Tải bản cập nhật** ngay đầu màn hình, kể cả trước khi đăng nhập. Khi chuyển sang màn hình khác, bạn vẫn có thể xem tiến độ hoặc hủy tải.
+- Sau khi tải xong, bấm **Cài đặt ngay** khi bạn sẵn sàng đóng Broma và mở trình cài đặt. Trong mục **Về Broma**, nút cập nhật cũng nằm ngay trên phần ghi chú phiên bản.
+
 ### v1.0.0-beta.69 — 2026-11-25
 
 **English**
